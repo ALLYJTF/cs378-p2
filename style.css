@@ -1,0 +1,151 @@
+body {
+    padding-top: 10px;
+    padding-left: 0%;
+  
+    width: 100%;
+    height: 100%;
+  }
+  
+  header {
+  
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+  
+  }
+  
+  section {
+  
+    width: 100%;
+    height: 100%;
+  }
+  
+  div {
+  
+    border: dashed black 1px;
+    display:inline-block; 
+    height:100%; 
+    width: 100%;
+  
+  }
+  
+  .subheading {
+  
+    color: orange;
+    text-align: center;
+    padding: 2% 0% 0% 0%;
+  
+  }
+  
+  .subheading-2 {
+  
+    font-style: italic;
+    text-align: center;
+    padding: 0% 0% 2% 0%;
+  }
+  
+  .block {
+    padding: 20px 40px;
+  }
+  
+  .menu_item {
+    
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+  
+    position: relative;
+  
+  }
+  
+  .menu_img {
+    
+    display: inline; 
+    float: left; 
+    
+    width: 30%; 
+    height: 10em;
+    padding: 10px; 
+  
+    object-fit: fill;
+  
+  }
+  
+  .menu_txt {
+  
+    float: right; 
+    position: absolute;
+  
+    width: 70%; 
+    height: 50%;   
+    vertical-align: middle;
+    
+    
+  }
+  
+  .menu_title {
+  
+    position: relative;
+    top: 25%;
+  
+    display: inline;
+    float:left;
+    text-align: left;
+    
+    width: 80%;
+    height: 50%;
+    padding: 5px 10px;
+  
+  }
+  
+  .menu_price {
+  
+    position: relative;
+    top: 25%;
+  
+    display: inline;
+    float: right;
+    text-align: center;
+    
+    width: 20%;
+    height: 50%;
+    padding: 5px;
+  
+  }
+  
+  .menu_btn_ctnr {
+
+    position: relative;
+    top: 25%;
+
+    display: inline;
+    float: right;
+
+    width: fit-content;
+    height: fit-content;
+    
+  }
+  
+  
+  .menu_btn {
+    
+    display: inline;
+    background-color: azure;
+    border:2px solid black;
+    border-radius: 100%;
+    width: 2em;
+    text-align: center;
+    
+  }
+
+  .checkout_btn {
+    display: inline;
+    float: right;
+    border:2px solid black;
+    margin: 16px 5px;
+    border-radius: 13px;
+    padding: 0px 15px;
+  }
+
+
