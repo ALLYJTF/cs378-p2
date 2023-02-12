@@ -115,9 +115,12 @@ function item_string(item) {
 
     let itm_count = document.getElementById(item).innerHTML;
     let itm_name = document.getElementById(item.toString() + "title").innerHTML;
+    if (item == "mac") {
+        itm_name = "mac & cheese";
+    }
 
     console.log(itm_count + " " + itm_name.toString());
-
+    
     return (itm_count + " " + itm_name + "\n");
 }
 
